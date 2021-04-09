@@ -1,0 +1,179 @@
+:root{
+	--mainBgColor: #48423c;
+	/* --secondaryColor: #fff; */
+ 
+	--bordersColor: #c1c1c1;
+
+	--mainTxt: #ccc;
+	--secondaryTxt: #f2f2ed;
+
+    --previwShadow: #1b1b23;
+    --borderrBox:  #17a2b8; 
+
+	/* --previwBg: rgb(251, 249, 243, 0.8); */
+	/* --previwShadow: #f0ead6; */
+
+
+	--buttonColor: black;
+
+    --sun:  #f0c644;
+
+    --color1: #298;
+    --color2: #222;
+    --color3: #131212;
+    --color4: #e0d0d0;
+    --color5: #2b2e2c;
+}
+
+@media(max-width: 599px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .icon_holder {
+        margin-top: 30px;
+        margin-left: 86px;
+    }
+
+    
+.arrow{
+    position: fixed;
+    bottom: -30px;
+    right: -30px;
+    z-index: 9;
+  }
+
+    .header {
+        top: 430px;
+        width: 310px;
+        left: 50%;
+    }
+
+    .header h1 {
+        font-size: 38px !important;
+        text-align: center;
+        color: var(--mainTxt);
+        z-index: 8888;
+    }
+    
+}
+
+
+@media screen and (max-width: 599px) {
+    .nav #brand img {
+        visibility: hidden;
+        left: 25%;
+    }
+
+    .nav {
+        background: transparent;
+    }
+
+    #toggle {
+        visibility: visible;
+        opacity: 1;
+        margin-top: -2px;
+        margin-right: -15px;
+    }
+
+    div .footer {
+        height: 100%;
+    }
+
+    .newsletter .section-subheading h1 {
+        font-size: 25px;
+    }
+
+    .newsletter .btn {
+        margin-left: 84px;
+    }
+
+    #resize {
+        z-index: 8888;
+        margin-top: 0px;
+        left: 0px;
+    }
+
+    nav #brand {
+        margin-left: -10px;
+    }
+
+    #resize ul li {
+        line-height: 30px;
+	   color: #fff;
+    }
+    #resize ul li img{
+        left: -50px;
+        top: 40px;
+        width: 210px;
+        height: 160px;
+    }
+
+    #resize ul li a {
+        text-decoration: none;
+        font-size: 19px;
+        font-family: 'Roboto Mono', monospace !important;
+        font-weight: 700 !important;
+        color: var(--secondaryText) !important;
+        transition: all 500ms ease-out;
+    }
+
+    nav #menu {
+        display: none;
+        transition: 500ms ease-in;
+    }
+
+    .team-section .section_head {
+        color: #fff;
+        font-size: 25px;
+        position: relative;
+        font-family: "Poppins";
+        text-transform: uppercase;
+        top: -110px;
+        left: 16vh;
+    }
+
+    .team-section {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/* 
+@media(min-width: 900px) {
+    #resize {
+        visibility: hidden !important;
+    }
+}
+
+
+@media(max-width: 900px) {
+    #contact-form {
+        margin: 5% 0;
+        width: 98%;
+    }
+}
+
+
+@media(max-width: 900px) {
+    .footer .container {
+        width: 92% !important;
+    }
+} */
+
+@media(min-width: 798px) {
+    .footer .container {
+        width: 92% !important;
+    }
+
+    div .footer {
+        height: 90vh;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    div.footer {
+        height: 90vh;
+    }
+}
